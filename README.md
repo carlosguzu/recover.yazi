@@ -39,15 +39,15 @@ run  = "plugin recover"
 desc = "Recover deleted file to original location"
 ```
 
-Make sure the \<kbd\>R\</kbd\> key combination (or whichever key you choose, like \<kbd\>ctrl\</kbd\> + \<kbd\>r\</kbd\>) is not used elsewhere.
+Make sure the **R** key combination (or whichever key you choose is not used elsewhere).
 
 ## How to Use
 
 1.  Open Yazi and navigate to your Trash directory (`~/.local/share/Trash/files` or your `~/Trash/files` symlink).
 2.  Hover over the deleted file you wish to restore.
-3.  Press \<kbd\>R\</kbd\> (or your configured hotkey) to activate the plugin.
+3.  Press **R**  (or your configured hotkey) to activate the plugin.
 4.  A confirmation dialog will appear showing you the exact original path where the file will be restored.
-5.  Press \<kbd\>Enter\</kbd\> to confirm. The file will be moved, the trash info will be cleaned up, and you'll receive a success notification. (in case you are not in the files folder Trash, you will receive a warning).
+5.  Press **Enter**  to confirm. The file will be moved, the trash info will be cleaned up, and you'll receive a success notification. (in case you are not in the files folder Trash, you will receive a warning).
 
 ## License
 
