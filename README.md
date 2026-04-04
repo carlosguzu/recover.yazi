@@ -19,6 +19,14 @@ This plugin reads standard FreeDesktop `.trashinfo` metadata to intelligently mo
 
 ## Installation
 
+
+### Using `ya pkg`
+
+```sh
+ya pkg add carlosguzu/recover
+```
+
+
 ### Using Git
 
 Clone the repository directly into your Yazi plugins directory (or create the folder and add your `main.lua`):
