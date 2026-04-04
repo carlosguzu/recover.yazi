@@ -72,11 +72,12 @@ local function entry()
 	
 	local dest = url_decode(raw_path)
 
+	local dest_without_filename = dest:match("^(.*)/")
 	
 	local yes = ya.confirm {
 		pos = { "center", w = 70, h = 10 },
 		title = "Recover File?",
-		body = ui.Text("Restore '" .. name .. "' to:\n" .. dest):wrap(ui.Wrap.YES),
+		body = ui.Text("Restore '" .. name .. "' to:\n" .. dest_without_filename):wrap(ui.Wrap.YES),
 	}
 
 	if yes then
